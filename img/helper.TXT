@@ -1,0 +1,22 @@
+BANNER TEXT
+Sekarang kamu bisa belanja souvenir berkualitas khas Bali secara online dan juga tanpa ribet
+
+
+KEUNGGULAN
+------------------
+box 1
+#e3f2fd
+
+box 2
+#e0f2f1
+
+box 3
+#ede7f6
+
+box 4
+#fff3e0
+
+--------------------
+
+PARALLAX TEXT
+Berlangganan sekarang untuk mendapatkan info terbaru dari kami 

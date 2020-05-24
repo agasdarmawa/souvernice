@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/col.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Souvernice</title>
+</head>
+<body>
+
+	<div class="bg-menu">
+		<ul class="logo">
+			<li><a href="" class="logo-text">Souver<span class="logo">Nice</span></a></li>
+		</ul>
+
+		<ul class="search">
+			<input type="text" name="" placeholder="Cari nama atau kategori produk">
+			<i class="fa fa-search"></i>
+		</ul>
+
+		<ul class="menu">
+			<li><a class="page-scroll" href="#home">Home</a></li>
+			<li><a class="page-scroll" href="#tentang">Tentang</a></li>
+			<li><a class="page-scroll" href="#produk">Katalog</a></li>
+			<li><i class="fa fa-shopping-cart"></i></li>
+			<li class="menu-bars" onclick="openMenu()">
+				<svg id="baseline-dehaze-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+				  <path id="Path_1576" data-name="Path 1576" d="M2,15.5v2H22v-2Zm0-5v2H22v-2Zm0-5v2H22v-2Z"/>
+				  <path id="Path_1577" data-name="Path 1577" d="M0,0H24V24H0Z" fill="none"/>
+				</svg>
+
+			</li>
+		</ul>
+	</div>
+
+	<div class="screen"></div>
+
+
+	<div class="menu-app">
+		<h3 class="logo-text">Souver<span class="logo">Nice</span></h3>
+		<svg onclick="closeMenu()" id="baseline-clear-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		  <path id="Path_926" data-name="Path 926" d="M19,6.41,17.59,5,12,10.59,6.41,5,5,6.41,10.59,12,5,17.59,6.41,19,12,13.41,17.59,19,19,17.59,13.41,12Z"/>
+		  <path id="Path_927" data-name="Path 927" d="M0,0H24V24H0Z" fill="none"/>
+		</svg>
+
+		<ul>
+			<li class="search">
+				<input type="text" name="" placeholder="Cari nama atau kategori produk">
+				<i class="fa fa-search"></i>
+			</li>
+			<li><a href="#home" class="page-scroll">Home</a></li>
+			<li><a href="#tentang" class="page-scroll">Tentang</a></li>
+			<li><a href="#produk" class="page-scroll">Katalog</a></li>
+			<li>
+				<div class="cart flex-center" title="Keranjang Saya">
+					<i class="fa fa-shopping-cart"></i>
+				</div>
+			</li>
+		</ul>
+	</div> <!-- /menu-app -->
+
+	
+
+
+
+	<div class="main">
+		
+		<header id="home">
+			<div class="circle circ1"></div>
+				<div class="circle circ2"></div>
+			
+			<div class="header-wrapper">
+			
+				
+				<div class="text-banner">
+					<h3>Sekarang kamu bisa belanja souvenir berkualitas khas Bali secara online dan juga tanpa ribet</h3>
+					<a href="#tentang" class="page-scroll">
+						<button class="mont" id="about">Tentang Kami</button>
+					</a>
+				</div> <!-- /text-banner -->
+
+				<div class="img-banner">
+					<img src="img/land.jpg" style="width: 30rem" alt="">
+				</div>
+
+
+			</div> <!-- /header-wrapper -->
+
+		</header> <!-- /header -->
+
+
+			
+		<section class="bg-about" id="tentang">
+			
+			<div class="col-lg-5">
+				<div class="img-about">
+					<img src="img/illus2.png" alt="">
+				</div>
+			</div>
+
+			<div class="col-lg-7">
+				<div class="text-about">
+					<h3>Apa itu <span class="logo-text">SouverNice</span></span>?</h3>
+					<p class="mont">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam
+					quis nostrud exercitation ullamco laboris.</p>
+
+					<div class="col-lg-12">
+						<div class="bg-exc">
+							
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="box-exc">
+									
+									<div class="icon icon1">
+										<img src="img/icon/shipped.svg" alt="">
+									</div>
+
+									<div class="text">
+										<h4>Pengiriman Cepat</h4>
+										<p class="mont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+
+								</div>
+							</div> <!-- /col-lg-6 -->
+
+
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="box-exc">
+									
+									<div class="icon icon2">
+										<img style="width: 1.7rem" src="img/icon/like.svg" alt="">
+									</div>
+
+									<div class="text">
+										<h4>Terpercaya</h4>
+										<p class="mont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+
+								</div>
+							</div> <!-- /col-lg-6 -->
+
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="box-exc">
+									
+									<div class="icon icon3">
+										<img style="width: 1.7rem" src="img/icon/money3.svg" alt="">
+									</div>
+
+									<div class="text">
+										<h4>Harga Terjangkau</h4>
+										<p class="mont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+
+								</div>
+							</div> <!-- /col-lg-6 -->
+
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="box-exc">
+									
+									<div class="icon icon4">
+										<img style="width: 1.7rem" src="img/icon/headphones.svg" alt="">
+									</div>
+
+									<div class="text">
+										<h4>Pelayanan 24 Jam</h4>
+										<p class="mont">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+
+								</div>
+							</div> <!-- /col-lg-6 -->
+
+
+						</div> <!-- /bg-exc -->
+
+					</div> <!-- /col-lg-12 -->
+
+				</div> <!-- /text-about -->
+			</div> <!-- /col-lg-7 -->
+
+
+		</section> <!-- /bg-about -->
+
+
+
+		<section class="bg-produk" id="produk">
+			
+			<h3 class="title">Produk Terbaru</h3>
+
+			<div class="produk-wrap">
+				
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/gelas/3.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Vas Bunga</h4>
+							<span>Rp. 30000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/gelas/2.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Teko Teh</h4>
+							<span>Rp. 90000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/gelas/4.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Mug</h4>
+							<span>Rp. 30000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/gelas/1.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Gelas</h4>
+							<span>Rp. 20000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/kayu/1.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Kotak Tisu</h4>
+							<span>Rp. 22000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/kayu/3.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Kursi</h4>
+							<span>Rp. 95000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/kayu/4.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Keranjang Rotan</h4>
+							<span>Rp. 55000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="produk">
+						<div class="img">
+							<img src="img/produk/kayu/2.jpg" alt="">
+
+							<div class="btn-cart flex-center">
+								<i class="fa fa-shopping-cart"></i>
+							</div>
+
+
+						</div>
+
+						<div class="text">
+							<h4>Kursi Rotan</h4>
+							<span>Rp. 50000</span>
+						</div>
+					</div> <!-- /produk -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-12" align="center">
+					<button class="btn-all">Lihat Semuanya</button>
+				</div>
+
+			</div> <!-- /produk-wrap -->
+
+		</section>
+
+
+		<section class="bg-parallax flex-center">
+			
+			<div class="col-lg-6 col-sm-10 col-md-8">
+				<div class="para-text">
+					<h4>Berlangganan sekarang untuk mendapatkan info terbaru dari kami</h4>
+
+					<form action="" method="">
+						<div class="subscribe">
+							<input type="email" required="" class="mont" name="" placeholder="example@gmail.com">
+							<i class="fa fa-envelope"></i>
+						</div>
+
+						<div class="submit">
+							<input type="submit" name="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="48.123" height="48.123" viewBox="0 0 48.123 48.123">
+							  <g id="baseline-keyboard_backspace-24px" transform="translate(48.123 48.123) rotate(180)">
+							    <path id="Path_1419" data-name="Path 1419" d="M0,0H48.123V48.123H0Z" transform="translate(0)" fill="none"/>
+							    <path id="Path_1420" data-name="Path 1420" d="M36.092,10.026H7.68l7.178-7.2L12.031,0,0,12.031,12.031,24.061l2.827-2.827-7.178-7.2H36.092Z" transform="translate(6.015 12.031)"/>
+							  </g>
+							</svg>
+						</div>
+
+					</form>
+				</div> <!-- /para-text -->
+			</div> <!-- /col-lg-6 -->
+
+		</section> <!-- /bg-parallax -->
+
+
+		<footer>
+			
+			<div class="footer-all">
+				
+
+				<div class="footer-wrap">
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-konten">
+						
+						<h3>Kontak Kami</h3>
+
+						<ul class="kontak">
+							<li><i class="fa fa-map-marker-alt" style="left: 3px"></i> <span class="mont" style="left: 14px">Jln. Tukad Pancoran</span></li>
+							<li><i class="fa fa-phone"></i> <span class="mont" style="left: 10px">+62 81 930 000 939</span></li>
+							<li><i class="fa fa-envelope"></i> <span class="mont" style="left: 10px">souvernice@gmail.com</span></li>
+						</ul>
+
+					</div> <!-- /footer-konten -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-2 col-md-6">
+					<div class="footer-konten">
+						
+						<h3>Bantuan</h3>
+
+						<ul class="list-menu">
+							<li><a href="">Home</a></li>
+							<li><a href="">Katalog</a></li>
+							<li><a href="">Keranjang</a></li>
+							<li><a href="">Pembayaran</a></li>
+						</ul>
+
+					</div> <!-- /footer-konten -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-konten">
+						
+						<h3>Dapatkan Aplikasi</h3>
+
+						<div class="col-md-12">
+							<div class="app">
+								<img src="img/google-play.png">
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="app" style="top: -20px">
+								<img src="img/app-store.png">
+							</div>
+						</div>
+
+					</div> <!-- /footer-konten -->
+				</div> <!-- /col-lg-3 -->
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-konten">
+						
+						<h3>Sosial Media</h3>
+
+						<ul class="medsos">
+							<a href="">
+								<li><i class="fab fa-instagram"></i></li>
+							</a>
+
+							<a href="">
+								<li><i class="fab fa-facebook-f"></i></li>
+							</a>
+
+							<a href="">
+								<li><i class="fab fa-twitter"></i></li>
+							</a>
+
+							<a href="">
+								<li><i class="fab fa-youtube"></i></li>
+							</a>
+						</ul>
+
+					</div> <!-- /footer-konten -->
+				</div> <!-- /col-lg-3 -->
+
+				<div class="footer-bottom">
+					<h4>&copy; Copyright 2019 Souvernice | All Right Reserved</h4>
+				</div>
+
+
+
+			</div> <!-- /footer-wrap -->
+
+			</div> <!-- /footer-all -->
+
+
+		</footer>
+
+
+
+
+        
+    </div> <!-- /main -->
+    
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        $(window).scroll(function(){
+            let scroll = $(window).scrollTop()
+
+            if(scroll > 80){
+                $('.bg-menu').addClass('scroll')
+            }
+
+            else{
+                $('.bg-menu').removeClass('scroll')
+            }
+        })
+
+        function openMenu(){
+            $('.menu-app').addClass('active')
+            $('.screen').addClass('active')
+            $('.main, .bg-menu').css({
+                'transform': 'translateX(150px)',
+                'transition': '.6s'
+            })
+        }
+
+        function closeMenu(){
+            $('.menu-app').removeClass('active')
+            $('.screen').removeClass('active')
+            $('.main, .bg-menu').css({
+                'transform': 'translateX(0px)',
+                'transition': '.6s'
+            })
+        }
+
+
+        $('.page-scroll').on('click', function(e){
+            var tujuan = $(this).attr('href');
+
+            var elemenTujuan = $(tujuan)
+
+            $('html').animate({
+                scrollTop: elemenTujuan.offset().top - 150
+            }, 1000)
+
+            e.preventDefault()
+        })
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+@media screen and (max-width: 640px){
+	.bg-menu ul.menu li svg{display: block !important;}.bg-menu ul.menu li a,.bg-menu ul.search,header .img-banner{display: none;}
+	.bg-menu{padding: 0 2rem !important}
+	/*.bg-menu ul.menu li.menu-bars{display: }*/
+	
+	.header-wrapper{padding: 11rem 3rem !important}
+	header .text-banner{max-width: 85% !important}
+	.circ2{top: 80% !important; left: 50% !important}
+	.bg-about .img-about img{width: 30rem !important; left: -40px}
+	.bg-about{width: 90% !important; height: 920px !important}
+	.menu-app{display: block !important; width: 75% !important}
+	.bg-produk{height: 3100px !important}
+	.bg-parallax .para-text h4{font-size: 15pt !important}
+	footer{height: 1000px !important;}
+	.footer-bottom{width: 80% !important}
+	.footer-all{padding: 2.5rem 3rem !important;}
+}
+
+@media screen and (max-width: 960px){
+	.header-wrapper{padding: 11rem 3rem !important}
+	.bg-menu ul.menu li svg{display: block !important;}
+	.bg-menu ul.menu li a,.bg-menu ul.search{display: none;}
+	/*header .text-banner{max-width: 55% !important}*/
+	header .img-banner img{width: 25rem !important; left: -40px; top: -40px !important}
+	.bg-menu{padding: 0 2rem !important}
+	.box-exc .text p{padding-right: 10px}
+	
+	/*.bg-about{width: 90% !important; height: 720px !important}*/
+
+	.bg-about .img-about img{width: 35rem !important; left: -100px}
+	.circ2{top: 80% !important; left: 50% !important}
+	.menu-app{display: block !important; width: 75% !important}
+	/*.bg-produk{height: 1700px !important}*/
+	/*footer{height: 660px !important;}*/
+	.footer-bottom{width: 80% !important}
+}
